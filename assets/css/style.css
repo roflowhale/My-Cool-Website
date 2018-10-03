@@ -1,30 +1,42 @@
-.container{
+html,body{
+    font-family: 'Libre Franklin', sans-serif;
+}
+.hero-wrapper{
     position: absolute;
-    width: 100%;
-    height: 100vh;
     top: 0;
     left: 0;
 }
-
+.container{
+    position: relative;
+    width: 100vw;
+    height: 85vh;
+}
+#landing{
+    background-image: url('../img/stars.jpg');
+    background-size: cover;
+    background-position: center;
+}
 .hero {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 0;
     text-align: center;
     width: 100%;
-    font-family: 'Libre Franklin', sans-serif;
     font-weight: 500;
     font-size: 5em;
     color: rgb(255, 250, 250);
-    margin-top: -0.5em;
+    text-shadow: 0px 3px 3px #424242;
 }
-
-#landing{
-    background-image: url('../img/stars.jpg');
-    background-size: cover;
-    position: fixed;
+/*#showcase{
+    position: relative;
+    background-color: #EEEEEE;
+    color: #424242;
+    font-size: 3em;
+    height: 100vh;
+    width: 100vw;
 }
-
-.showcase{
-    
-}
+.heading{
+    position: relative;
+    top: 1em;
+    left: 1em;
+}*/
